@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ast';
+  count = 0;
+
+  incrementCount() {
+    this.count++;
+  }
 }
