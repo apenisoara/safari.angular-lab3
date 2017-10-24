@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ast';
+  clicks = 0;
+  onClick() {
+    this.clicks++;
+  }
 }
